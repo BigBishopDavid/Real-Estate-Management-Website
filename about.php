@@ -1,6 +1,4 @@
 <?php require_once "includes/header.php"?>
-    
-  <div class="slide-one-item home-slider owl-carousel">
 
     <div class="site-blocks-cover inner-page-cover overlay" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
       <div class="container">

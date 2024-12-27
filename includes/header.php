@@ -49,7 +49,7 @@
           <div class="container py-1">
             <div class="row align-items-center">
               <div class="col-8 col-md-8 col-lg-4">
-                <h1 class="mb-0"><a href="index.php" class="text-white h2 mb-0"><strong>Homeland<span class="text-danger">.</span></strong></a></h1>
+                <h1 class="mb-0"><a href="<?php echo APPURL?>index.php" class="text-white h2 mb-0"><strong>Homeland<span class="text-danger">.</span></strong></a></h1>
               </div>
               <div class="col-4 col-md-4 col-lg-8">
                 <nav class="site-navigation text-right text-md-right" role="navigation">
@@ -60,10 +60,10 @@
                     <li class="active">
                       <a href="<?php echo APPURL?>index.php">Home</a>
                     </li>
-                    <li><a href="buy.html">Buy</a></li>
-                    <li><a href="rent.html">Rent</a></li>
+                    <li><a href="<?php echo APPURL?>buy.php">Buy</a></li>
+                    <li><a href="<?php echo APPURL?>rent.php">Rent</a></li>
                     <li class="has-children">
-                      <a href="properties.html">Properties</a>
+                      <a href="<?php echo APPURL?>properties.php">Properties</a>
                       <ul class="dropdown arrow-top">
                         <li><a href="#">Condo</a></li>
                         <li><a href="#">Property Land</a></li>
@@ -72,7 +72,7 @@
                       </ul>
                     </li>
 
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="<?php echo APPURL?>about.php">About</a></li>
                     <li><a href="<?php echo APPURL?>contact.php">Contact</a></li>
 
                     <?php if (isset($_SESSION["user_name"])) : ?>
