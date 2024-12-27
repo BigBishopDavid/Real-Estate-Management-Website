@@ -1,0 +1,16 @@
+# Ignore specific files
+secret.txt
+#debug.log
+
+# Ignore all `.log` files
+*.log
+
+# Ignore directories
+#/node_modules/
+#/build/
+
+# Ignore all `.env` files
+*.env
+
+# Ignore specific file in a subfolder
+#subfolder/config.json
