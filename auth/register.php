@@ -7,6 +7,10 @@
 
 <?php
 
+  if(isset($_SESSION["user_name"]))
+  {
+    header("header: " . APPURL);
+  }
   if(isset($_POST["submit"]))
   {
     if(empty($_POST["username"]) || empty($_POST["email"]) || empty($_POST["password"]))
