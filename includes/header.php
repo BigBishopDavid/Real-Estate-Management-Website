@@ -44,7 +44,7 @@
 
                 <ul class="site-menu js-clone-nav d-none d-lg-block">
                   <li class="active">
-                    <a href="index.php">Home</a>
+                    <a href="<?php echo APPURL?>index.php">Home</a>
                   </li>
                   <li><a href="buy.html">Buy</a></li>
                   <li><a href="rent.html">Rent</a></li>
