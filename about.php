@@ -1,6 +1,4 @@
 <?php require_once "includes/header.php"?>
-
-  <body>
     
   <div class="slide-one-item home-slider owl-carousel">
 

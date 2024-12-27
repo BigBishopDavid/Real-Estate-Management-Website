@@ -31,6 +31,7 @@
     
   </head>
 
+<body>
   <div class="site-loader"></div>
   
   <div class="site-wrap">
@@ -43,7 +44,7 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div> <!-- .site-mobile-menu -->
-    
+
     <div class="site-navbar mt-4">
           <div class="container py-1">
             <div class="row align-items-center">
