@@ -7,7 +7,7 @@ secret.txt
 
 # Ignore directories
 #/node_modules/
-#/build/
+/notPart/
 
 # Ignore all `.env` files
 *.env
