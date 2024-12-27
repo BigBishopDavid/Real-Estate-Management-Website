@@ -4,10 +4,13 @@ secret.txt
 
 # Ignore all `.log` files
 *.log
+*.py
+*.cpp
 
 # Ignore directories
 #/node_modules/
-/notPart/
+/notPart/*.py
+/notPart/*.php
 
 # Ignore all `.env` files
 *.env
