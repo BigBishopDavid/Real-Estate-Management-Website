@@ -43,7 +43,7 @@
                   </li>
 
                   <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="<?php echo APPURL?>contact.php">Contact</a></li>
 
                   <?php if (isset($_SESSION["user_name"])) : ?>
                     <li class="has-children">
