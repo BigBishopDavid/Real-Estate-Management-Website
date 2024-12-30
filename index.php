@@ -86,9 +86,9 @@
               </div>
               <div class="ml-auto d-flex align-items-center">
                 <div>
-                  <a href="#" class="view-list px-3 border-right active">All</a>
-                  <a href="#" class="view-list px-3 border-right">Rent</a>
-                  <a href="#" class="view-list px-3">Sale</a>
+                  <a href="<?php echo APPURL?>" class="view-list px-3 border-right active">All</a>
+                  <a href="<?php echo APPURL?>rent.php?type=rent" class="view-list px-3 border-right">Rent</a>
+                  <a href="<?php echo APPURL?>sale.php?type=sale" class="view-list px-3">Sale</a>
                 </div>
 
 
