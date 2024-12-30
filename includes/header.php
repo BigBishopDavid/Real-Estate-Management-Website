@@ -63,7 +63,7 @@
                     <li><a href="<?php echo APPURL?>sale.php?type=sale">Buy</a></li>
                     <li><a href="<?php echo APPURL?>rent.php?type=rent">Rent</a></li>
                     <li class="has-children">
-                      <a href="<?php echo APPURL?>properties.php">Properties</a>
+                      <a href="#">Properties</a>
                       <ul class="dropdown arrow-top">
                         <li><a href="#">Condo</a></li>
                         <li><a href="#">Property Land</a></li>

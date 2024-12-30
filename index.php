@@ -80,8 +80,7 @@
           <div class="col-md-12">
             <div class="view-options bg-white py-3 px-3 d-md-flex align-items-center">
               <div class="mr-auto">
-                <a href="index.html" class="icon-view view-module active"><span class="icon-view_module"></span></a>
-                <a href="view-list.html" class="icon-view view-list"><span class="icon-view_list"></span></a>
+                <a href="<?php echo APPURL?>" class="icon-view view-module active"><span class="icon-view_module"></span></a>
                 
               </div>
               <div class="ml-auto d-flex align-items-center">
