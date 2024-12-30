@@ -60,8 +60,8 @@
                     <li class="active">
                       <a href="<?php echo APPURL?>index.php">Home</a>
                     </li>
-                    <li><a href="<?php echo APPURL?>buy.php">Buy</a></li>
-                    <li><a href="<?php echo APPURL?>rent.php">Rent</a></li>
+                    <li><a href="<?php echo APPURL?>sale.php?type=sale">Buy</a></li>
+                    <li><a href="<?php echo APPURL?>rent.php?type=rent">Rent</a></li>
                     <li class="has-children">
                       <a href="<?php echo APPURL?>properties.php">Properties</a>
                       <ul class="dropdown arrow-top">
