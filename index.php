@@ -110,8 +110,8 @@
 
     <div class="site-section site-section-sm bg-light">
       <div class="container">
-      <?php foreach($props as $prop) : ?>
         <div class="row mb-5">
+        <?php foreach($props as $prop) : ?>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="property-entry h-100">
               <a href="<?php echo APPURL; ?>property-details.php?id=<?php echo $prop->id; ?>" class="property-thumbnail">
@@ -146,8 +146,8 @@
               </div>
             </div>
           </div>
+          <?php endforeach?>
         </div>
-      <?php endforeach?>
         
       </div>
     </div>
