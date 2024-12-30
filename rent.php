@@ -99,6 +99,8 @@
                   <a href="<?php echo APPURL?>" class="view-list px-3 border-right active">All</a>
                   <a href="<?php echo APPURL?>rent.php?type=rent" class="view-list px-3 border-right">Rent</a>
                   <a href="<?php echo APPURL?>sale.php?type=sale" class="view-list px-3">Sale</a>
+                  <a href="<?php echo APPURL?>price.php?price=ASC" class="view-list px-3">Price Ascending</a>
+                  <a href="<?php echo APPURL?>price.php?price=DESC" class="view-list px-3">Price Descending</a>
                 </div>
 
 

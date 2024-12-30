@@ -10,10 +10,10 @@
 
   $props = $query->fetchAll(PDO::FETCH_OBJ);
 
-  if(isset($_GET["type"])){
-    $type = $_GET["type"];
+  if(isset($_GET["price"])){
+    $price = $_GET["price"];
 
-    $rent = $conn->query("SELECT * FROM props WHERE type='$type'");
+    $rent = $conn->query("SELECT * FROM props ORDER BY price $price");
 
     $rent->execute();
 
@@ -103,6 +103,15 @@
                   <a href="<?php echo APPURL?>price.php?price=DESC" class="view-list px-3">Price Descending</a>
                 </div>
 
+
+                <div class="select-wrap">
+                  <span class="icon icon-arrow_drop_down"></span>
+                  <select class="form-control form-control-sm d-block rounded-0">
+                    <option value="">Sort by</option>
+                    <option value="">Price Ascending</option>
+                    <option value="">Price Descending</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
